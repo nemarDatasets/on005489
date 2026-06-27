@@ -1,36 +1,96 @@
 {
   "version": "2.0",
-  "dataset_id": "on005489",
-  "source": "openneuro",
-  "source_id": "ds005489",
+  "pipeline_stage": "enriched",
   "title": "Free Recall with Open-Loop Stimulation at Encoding",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Haydn G. Herrema": {},
     "Michael J. Kahana": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005489.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005489",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005489",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005489",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004789",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "beh",
-    "ieeg"
-  ],
-  "datatypes": [
-    "beh",
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "DARPA RAM: N66001-14-2-4032"
+      "funder_name": "DARPA",
+      "award_number": "N66001-14-2-4032",
+      "award_title": "RAM"
     }
   ],
-  "acknowledgements": "We thank our collaborators who have helped in the collection of this data: Hospital of the University of Pennsylvania, Thomas Jefferson University Hospital, Dartmouth-Hitchcock Medical Center, Mayo Clinic, Columbia University Hospital, Emory University Hospital, University of Texas Southwestern Medical Center."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh",
+    "ieeg"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task with open-loop electrical brain stimulation during encoding. This is an open-loop stimulation variant of the FR1 dataset, with added targeted neural stimulation component. Participants studied word lists presented visually, performed distractor arithmetic tasks, and freely recalled words while stimulation was delivered to hippocampal and entorhinal cortex electrodes during encoding only. The study involved multi-site clinical collaboration and systematically varied stimulation parameters across encoding blocks to investigate the effects of targeted neural stimulation on memory performance.",
+  "methods_description": "Intracranial EEG recordings were collected during a delayed free recall task with open-loop stimulation at encoding as part of a multi-site clinical collaboration across the country. Participants studied 25-word lists presented visually one at a time, with 20 lists randomly assigned to receive electrical stimulation during encoding only (no stimulation during distractor or retrieval phases). Stimulation was delivered to single electrodes in the hippocampus and entorhinal cortex on alternating two-word blocks (6 of 12 words stimulated per list). Stimulation parameters included amplitude, pulse frequency, pulse width, and pulse count, with stimulation onset 200 ms before word presentation and duration of 4.6 seconds. Recordings were acquired using Blackrock and Medtronic systems with monopolar and bipolar referencing schemes.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "free recall"
+    },
+    {
+      "term": "delayed free recall"
+    },
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "hippocampus"
+    },
+    {
+      "term": "entorhinal cortex"
+    },
+    {
+      "term": "open-loop stimulation"
+    },
+    {
+      "term": "multi-site clinical collaboration"
+    },
+    {
+      "term": "memory performance"
+    }
+  ],
+  "source_hash": "5135bbc16071bf950e65b84496ed89b200cfd3019199ea2b25392a79396c60c6"
 }
