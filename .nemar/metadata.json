@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Free Recall with Open-Loop Stimulation at Encoding",
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task with open-loop electrical brain stimulation during encoding. Participants studied word lists presented visually, performed distractor arithmetic tasks, and freely recalled words while stimulation was delivered to hippocampal and entorhinal cortex electrodes. The study involved multi-site clinical collaboration and systematically varied stimulation parameters across encoding blocks to investigate memory modulation.",
-  "methods_description": "Intracranial electrophysiological recordings were collected during a delayed free recall task with open-loop stimulation at encoding. Participants studied 25-list sessions with 20 lists randomly assigned for stimulation. Electrical stimulation was delivered to single electrodes in hippocampus and entorhinal cortex during alternating two-word blocks (6 of 12 words stimulated per list). Stimulation parameters included amplitude, pulse frequency, pulse width, and pulse count, with onset 200 ms before word presentation and duration of 4.6 seconds. Recordings were acquired using Blackrock (250 nV units) and Medtronic (0.1 µV units) systems with monopolar (referenced) and bipolar configurations.",
+  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a delayed free recall task with open-loop electrical brain stimulation during encoding. Participants studied visually presented word lists, performed distractor arithmetic tasks, and freely recalled words while stimulation was delivered to hippocampal and entorhinal cortex electrodes. The study involved 25 participants across multiple clinical sites, with 20 of 25 lists per session receiving open-loop stimulation on alternating word pairs.",
+  "methods_description": "Intracranial electrophysiological recordings were collected during a delayed free recall task with open-loop stimulation at encoding. Stimulation was delivered to single electrodes in hippocampus and entorhinal cortex during alternating two-word blocks (6 of 12 words per list). Stimulation commenced 200 ms prior to word onset and lasted 4.6 seconds, ending 200-450 ms after the offset of the second word. Stimulation parameters included amplitude, pulse frequency, pulse width, and pulse count. Recordings were acquired using Blackrock (250 nV units) and Medtronic (0.1 µV units) systems. Monopolar recordings were referenced (typically mastoid) and bipolar recordings followed paired electrode schemes. MNI and Talairach coordinates were provided when available.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,7 +21,13 @@
       "term": "delayed free recall"
     },
     {
+      "term": "FR1 variant"
+    },
+    {
       "term": "memory encoding"
+    },
+    {
+      "term": "memory"
     },
     {
       "term": "electrical brain stimulation"
@@ -36,25 +42,19 @@
       "term": "open-loop stimulation"
     },
     {
-      "term": "clinical recordings"
+      "term": "word list learning"
     },
     {
-      "term": "distractor task"
+      "term": "verbal memory encoding"
     },
     {
-      "term": "arithmetic task"
+      "term": "behavioral data"
     },
     {
-      "term": "multi-site collaboration"
+      "term": "multi-site study"
     },
     {
-      "term": "clinical neuroscience"
-    },
-    {
-      "term": "memory modulation"
-    },
-    {
-      "term": "intracranial recordings"
+      "term": "clinical collaboration"
     }
   ],
   "related_identifiers": [
