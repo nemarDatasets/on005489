@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Free Recall with Open-Loop Stimulation at Encoding",
-  "description": "This dataset contains intracranial EEG recordings and behavioral events from a delayed free recall task with open-loop electrical stimulation delivered during word encoding. Data were collected across multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania. Stimulation was applied to single electrodes in the hippocampus or entorhinal cortex during alternating two-word blocks in a subset of study lists, enabling investigation of stimulation effects on memory encoding.",
-  "methods_description": "Participants studied visually presented word lists, performed arithmetic distractor tasks, and then freely recalled words. Open-loop electrical stimulation was delivered to a single electrode (hippocampus or entorhinal cortex) during encoding on 20 of 25 lists, targeting alternating two-word blocks, with stimulation starting 200 ms before word onset and lasting 4.6 seconds. iEEG recordings were collected in monopolar and bipolar configurations using Blackrock and Medtronic systems, with voltage scaling applied to standardize units.",
+  "description": "This dataset contains behavioral events and intracranial EEG recordings from a delayed free recall task in which participants studied visually presented word lists, completed arithmetic distractor problems, and then freely recalled the words. Open-loop electrical stimulation was delivered during encoding to single electrodes in the hippocampus and entorhinal cortex, on alternating two-word blocks in 20 of 25 lists per session. Data were collected at multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania.",
+  "methods_description": "Participants with implanted intracranial electrodes performed delayed free recall. Stimulation started 200 ms before the first word of a block and lasted 4.6 s, with no stimulation during distractor or retrieval phases. Stimulation parameters (anode/cathode, amplitude, frequency, pulse width, pulse count) are recorded in the events files. Recordings are provided in monopolar and bipolar montages, from Blackrock and Medtronic systems, scaled to volts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,6 +21,9 @@
       "term": "electrical stimulation"
     },
     {
+      "term": "memory encoding"
+    },
+    {
       "term": "Hippocampus",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
@@ -29,9 +32,6 @@
       "term": "Entorhinal Cortex",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018728"
-    },
-    {
-      "term": "memory encoding"
     }
   ],
   "related_identifiers": [
@@ -75,7 +75,7 @@
     "ieeg"
   ],
   "sizes": [
-    "69.7 GB (157 files)"
+    "64.92 GB (157 files)"
   ],
   "formats": [
     ".edf",
