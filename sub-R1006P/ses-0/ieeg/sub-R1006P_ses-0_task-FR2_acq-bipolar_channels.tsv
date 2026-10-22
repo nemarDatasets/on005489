@@ -112,7 +112,6 @@ O3-O4	ECOG	V	n/a	n/a	bipolar	O	513	strip	n/a
 O4-O5	ECOG	V	n/a	n/a	bipolar	O	513	strip	n/a
 O5-O6	ECOG	V	n/a	n/a	bipolar	O	513	strip	n/a
 P1-P2	ECOG	V	n/a	n/a	bipolar	P	513	strip	n/a
-P2-P6	ECOG	V	n/a	n/a	bipolar	P	513	strip	n/a
 P6-P7	ECOG	V	n/a	n/a	bipolar	P	513	strip	n/a
 P7-P8	ECOG	V	n/a	n/a	bipolar	P	513	strip	n/a
 DEC1-DEC2	SEEG	V	n/a	n/a	bipolar	DEC	513	depth	n/a

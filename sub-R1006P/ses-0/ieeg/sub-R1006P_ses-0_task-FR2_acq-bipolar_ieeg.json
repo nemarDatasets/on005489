@@ -7,7 +7,7 @@
     "RecordingDuration": 2883.216374269006,
     "RecordingType": "continuous",
     "iEEGReference": "bipolar",
-    "ECOGChannelCount": 116,
+    "ECOGChannelCount": 115,
     "SEEGChannelCount": 18,
     "EEGChannelCount": 0,
     "EOGChannelCount": 0,

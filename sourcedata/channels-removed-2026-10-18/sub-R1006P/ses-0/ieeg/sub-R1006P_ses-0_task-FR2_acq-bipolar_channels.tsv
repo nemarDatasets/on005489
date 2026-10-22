@@ -1,0 +1,2 @@
+name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	description	notch
+P2-P6	ECOG	V	n/a	n/a	bipolar	P	513	strip	n/a
